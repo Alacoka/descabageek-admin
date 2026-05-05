@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_bloco_de_textos",
+  "info": {
+    "displayName": "bloco-de-texto",
+    "icon": "italic"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

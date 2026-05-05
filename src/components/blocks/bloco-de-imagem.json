@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_bloco_de_imagems",
+  "info": {
+    "displayName": "bloco-de-imagem",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

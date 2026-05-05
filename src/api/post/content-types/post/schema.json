@@ -42,6 +42,13 @@
     },
     "link_externo": {
       "type": "string"
+    },
+    "conteudo_do_post": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.bloco-de-imagem",
+        "blocks.bloco-de-texto"
+      ]
     }
   }
 }
