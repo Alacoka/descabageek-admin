@@ -19,7 +19,14 @@
       "targetField": "titulo"
     },
     "conteudo": {
-      "type": "blocks"
+      "type": "blocks",
+      "allowedBlocks": [
+        "paragraph",
+        "heading",
+        "list",
+        "image",
+        "quote"
+      ]
     },
     "capa": {
       "type": "media",
