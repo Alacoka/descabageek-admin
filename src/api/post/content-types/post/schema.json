@@ -43,7 +43,7 @@
     "link_externo": {
       "type": "string"
     },
-    "corpo_do_texto": {
+    "corpo_do_textoo": {
       "type": "richtext"
     }
   }
