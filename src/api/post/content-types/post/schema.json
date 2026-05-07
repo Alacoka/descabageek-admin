@@ -19,14 +19,7 @@
       "targetField": "titulo"
     },
     "conteudo": {
-      "type": "blocks",
-      "allowedBlocks": [
-        "paragraph",
-        "heading",
-        "list",
-        "image",
-        "quote"
-      ]
+      "type": "blocks"
     },
     "capa": {
       "type": "media",
@@ -50,12 +43,8 @@
     "link_externo": {
       "type": "string"
     },
-    "conteudo_do_post": {
-      "type": "dynamiczone",
-      "components": [
-        "blocks.bloco-de-imagem",
-        "blocks.bloco-de-texto"
-      ]
+    "corpo_do_texto": {
+      "type": "richtext"
     }
   }
 }
