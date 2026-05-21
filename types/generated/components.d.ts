@@ -6,9 +6,7 @@ export interface BlocksBlocoDeImagem extends Struct.ComponentSchema {
     displayName: 'bloco-de-imagem';
     icon: 'picture';
   };
-  attributes: {
-    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
-  };
+  attributes: {};
 }
 
 export interface BlocksBlocoDeTexto extends Struct.ComponentSchema {
@@ -17,9 +15,7 @@ export interface BlocksBlocoDeTexto extends Struct.ComponentSchema {
     displayName: 'bloco-de-texto';
     icon: 'italic';
   };
-  attributes: {
-    text: Schema.Attribute.String;
-  };
+  attributes: {};
 }
 
 declare module '@strapi/strapi' {
