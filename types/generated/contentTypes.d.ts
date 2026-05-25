@@ -488,6 +488,7 @@ export interface ApiPostPost extends Struct.CollectionTypeSchema {
   attributes: {
     capa: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     categoria: Schema.Attribute.String;
+    categorias: Schema.Attribute.Enumeration<['Agenda', 'Guia', 'Lista']>;
     corpo_do_textoo: Schema.Attribute.RichText;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

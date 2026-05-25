@@ -31,6 +31,14 @@
     "categoria": {
       "type": "string"
     },
+    "categorias": {
+      "type": "enumeration",
+      "enum": [
+        "Agenda",
+        "Guia",
+        "Lista"
+      ]
+    },
     "descricao": {
       "type": "string"
     },
