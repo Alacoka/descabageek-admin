@@ -29,14 +29,11 @@
       ]
     },
     "categoria": {
-      "type": "string"
-    },
-    "categorias": {
       "type": "enumeration",
       "enum": [
-        "Agenda",
-        "Guia",
-        "Lista"
+        "Agendas",
+        "Guias",
+        "Listas"
       ]
     },
     "descricao": {
