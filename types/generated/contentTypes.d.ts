@@ -455,6 +455,7 @@ export interface ApiAgendaAgenda extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     data_lancamento: Schema.Attribute.Date;
+    descricao: Schema.Attribute.String;
     img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     link_plataforma: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;

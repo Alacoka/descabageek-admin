@@ -42,6 +42,9 @@
     },
     "link_plataforma": {
       "type": "string"
+    },
+    "descricao": {
+      "type": "string"
     }
   }
 }
