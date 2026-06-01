@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "singularName": "agenda",
+    "pluralName": "agendas",
+    "displayName": "agenda"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "data_lancamento": {
+      "type": "date"
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "HQ-MANGA",
+        "ANIMAÇÕES",
+        "GAMES",
+        "STREAMING",
+        "CINEMA"
+      ]
+    },
+    "plataforma": {
+      "type": "string"
+    },
+    "link_plataforma": {
+      "type": "string"
+    }
+  }
+}
