@@ -129,3 +129,23 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+
+# Ficheiros de ambiente — NUNCA commitar
+.env
+.env.*
+env
+env.*
+ 
+# Strapi
+.tmp
+.cache
+build
+dist
+ 
+# Node
+node_modules
+npm-debug.log*
+ 
+# Sistema
+.DS_Store
+*.log
