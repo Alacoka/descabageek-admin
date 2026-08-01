@@ -14,10 +14,10 @@
     "titulo": {
       "type": "string"
     },
-    "data_lancamento": {
+    "data": {
       "type": "date"
     },
-    "img": {
+    "capa": {
       "type": "media",
       "multiple": true,
       "allowedTypes": [
@@ -30,11 +30,11 @@
     "tipo": {
       "type": "enumeration",
       "enum": [
-        "HQ-MANGA",
-        "ANIMAÇÕES",
-        "GAMES",
-        "STREAMING",
-        "CINEMA"
+        "series",
+        "games",
+        "hqs-mangas",
+        "filmes",
+        "animacao"
       ]
     },
     "plataforma": {

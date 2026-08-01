@@ -451,12 +451,15 @@ export interface ApiAgendaAgenda extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    capa: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    data_lancamento: Schema.Attribute.Date;
+    data: Schema.Attribute.Date;
     descricao: Schema.Attribute.String;
-    img: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     link_plataforma: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -467,7 +470,7 @@ export interface ApiAgendaAgenda extends Struct.CollectionTypeSchema {
     plataforma: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     tipo: Schema.Attribute.Enumeration<
-      ['HQ-MANGA', 'ANIMA\u00C7\u00D5ES', 'GAMES', 'STREAMING', 'CINEMA']
+      ['series', 'games', 'hqs-mangas', 'filmes', 'animacao']
     >;
     titulo: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
